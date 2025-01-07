@@ -32,7 +32,7 @@ body {
     width: 100%;
     background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(10px);
-    padding: 0.5rem 0;
+    padding: 0.2rem 0;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     z-index: 1000;
 }
@@ -40,7 +40,7 @@ body {
 .nav-content {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0.5rem;
+    padding: 0.2rem;
     display: flex;
     justify-content: center;
     gap: 1.5rem;
@@ -52,7 +52,7 @@ body {
     font-weight: 500;
     transition: color 0.3s;
     position: relative;
-    padding: 0.5rem 1rem;
+    padding: 0.2rem 0.5rem;
 }
 
 .nav-content a::after {
