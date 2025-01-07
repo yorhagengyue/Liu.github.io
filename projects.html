@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Liu Zi Cheng</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html" class="active">Projects</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <section class="projects-section">
+            <div class="section-header">
+                <div class="header-line"></div>
+                <h1 class="section-title">My Projects</h1>
+                <div class="header-line"></div>
+            </div>
+            <p class="section-subtitle">
+                <span class="highlight-dot"></span>
+                Explore my recent work and innovations
+                <span class="highlight-dot"></span>
+            </p>
+
+            <div class="project-list">
+                <!-- Web Design Project -->
+                <div class="project-item">
+                    <div class="project-content">
+                        <h3><span class="highlight">Web</span> Design</h3>
+                        <p class="project-description">
+                            Curry House Online Ordering System - A complete online ordering platform for a curry restaurant in South Canteen.
+                            Built with focus on user experience and performance.
+                        </p>
+                        <ul class="project-features">
+                            <li><i class="fas fa-check"></i> Interactive menu display</li>
+                            <li><i class="fas fa-check"></i> User account system</li>
+                            <li><i class="fas fa-check"></i> Order management</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-primary view-details" data-project="web-design">View Details</a>
+                        </div>
+                    </div>
+                    <div class="project-image">
+                        <img src="images/web-design.jpg" alt="Web Design Project">
+                        <div class="image-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cloud Server Building -->
+                <div class="project-item reverse">
+                    <div class="project-content">
+                        <h3><span class="highlight">Cloud</span> Server</h3>
+                        <p class="project-description">
+                            Scalable and secure cloud infrastructure implementation.
+                            Building robust server architectures for enterprise applications.
+                        </p>
+                        <ul class="project-features">
+                            <li><i class="fas fa-check"></i> AWS/Azure cloud services integration</li>
+                            <li><i class="fas fa-check"></i> Microservices architecture</li>
+                            <li><i class="fas fa-check"></i> Docker containerization</li>
+                            <li><i class="fas fa-check"></i> CI/CD pipeline implementation</li>
+                            <li><i class="fas fa-check"></i> Load balancing and auto-scaling</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-primary view-details" data-project="cloud-server">View Details</a>
+                        </div>
+                    </div>
+                    <div class="project-image">
+                        <img src="images/cloud-server.jpg" alt="Cloud Server Architecture">
+                        <div class="image-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Data Analysis Project -->
+                <div class="project-item hidden">
+                    <div class="project-content">
+                        <h3><span class="highlight">Data</span> Analysis</h3>
+                        <p class="project-description">
+                            Comprehensive data analysis and visualization platform.
+                            Turning complex data into actionable insights.
+                        </p>
+                        <ul class="project-features">
+                            <li><i class="fas fa-check"></i> Python data processing</li>
+                            <li><i class="fas fa-check"></i> Interactive dashboards</li>
+                            <li><i class="fas fa-check"></i> Predictive modeling</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-primary view-details" data-project="data-analysis">View Details</a>
+                        </div>
+                    </div>
+                    <div class="project-image">
+                        <img src="images/data-analysis.jpg" alt="Data Analysis Platform">
+                        <div class="image-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PCB Design Project -->
+                <div class="project-item hidden reverse">
+                    <div class="project-content">
+                        <h3><span class="highlight">PCB</span> Design</h3>
+                        <p class="project-description">
+                            Professional PCB design and development for electronic systems.
+                            Creating efficient and reliable circuit solutions.
+                        </p>
+                        <ul class="project-features">
+                            <li><i class="fas fa-check"></i> 4-layer PCB design using Altium Designer</li>
+                            <li><i class="fas fa-check"></i> High-speed digital circuit design</li>
+                            <li><i class="fas fa-check"></i> Power management system integration</li>
+                            <li><i class="fas fa-check"></i> EMI/EMC compliance optimization</li>
+                            <li><i class="fas fa-check"></i> Component placement and routing</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-primary view-details" data-project="pcb-design">View Details</a>
+                        </div>
+                    </div>
+                    <div class="project-image">
+                        <img src="images/pcb-design.jpg" alt="PCB Design Project">
+                        <div class="image-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Flexible Vegetable Monitor -->
+                <div class="project-item hidden">
+                    <div class="project-content">
+                        <h3><span class="highlight">Smart</span> Agriculture</h3>
+                        <p class="project-description">
+                            IoT-based smart agriculture monitoring system using M5Stack devices.
+                            Real-time environmental tracking for urban farming optimization.
+                        </p>
+                        <ul class="project-features">
+                            <li><i class="fas fa-check"></i> Real-time environmental monitoring</li>
+                            <li><i class="fas fa-check"></i> MQTT protocol integration</li>
+                            <li><i class="fas fa-check"></i> Automated alert system</li>
+                            <li><i class="fas fa-check"></i> Remote access capabilities</li>
+                            <li><i class="fas fa-check"></i> Data visualization</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-primary view-details" data-project="vegetable-monitor">View Details</a>
+                        </div>
+                    </div>
+                    <div class="project-image">
+                        <img src="images/vegetable-monitor.jpg" alt="Smart Agriculture System">
+                        <div class="image-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- View All Projects Button -->
+            <div class="view-all-btn-container">
+                <button class="view-all-btn" id="viewAllBtn">
+                    View All Projects
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+        </section>
+    </div>
+
+    <!-- Web Design Project Modal -->
+    <div id="web-design-modal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close"><i class="fas fa-times"></i></span>
+            <div class="modal-header">
+                <h2>Curry House Online Ordering System</h2>
+                <p class="subtitle">Web Development Project</p>
+            </div>
+            <div class="modal-body">
+                <div class="project-gallery">
+                    <div class="gallery-item">
+                        <img src="images/curry-house-1.jpg" alt="Curry House Homepage">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/curry-house-2.jpg" alt="Curry House Ordering System">
+                    </div>
+                </div>
+                <div class="project-details">
+                    <div class="detail-section">
+                        <h3><i class="fas fa-info-circle"></i> Introduction</h3>
+                        <p>A web development project for creating an online ordering platform for a curry restaurant in South Canteen. The system aims to streamline the ordering process while providing customers with an intuitive interface to browse menus and learn about the restaurant's history and offerings.</p>
+                    </div>
+                    <div class="view-all-details-container">
+                        <button class="view-all-details-btn">
+                            View All Details
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                    <div class="detail-section hidden">
+                        <h3><i class="fas fa-user"></i> My Role</h3>
+                        <ul>
+                            <li>Independent developer responsible for entire website development</li>
+                            <li>UI/UX design and implementation</li>
+                            <li>Frontend development and testing</li>
+                            <li>Content management</li>
+                        </ul>
+                    </div>
+                    <div class="detail-section hidden">
+                        <h3><i class="fas fa-tasks"></i> Work Process</h3>
+                        <ul>
+                            <li>Requirement Analysis
+                                <ul>
+                                    <li>Gathered restaurant requirements</li>
+                                    <li>Analyzed user needs</li>
+                                    <li>Defined system functionality</li>
+                                </ul>
+                            </li>
+                            <li>Design Phase
+                                <ul>
+                                    <li>Created wireframes</li>
+                                    <li>Designed user interface</li>
+                                    <li>Planned responsive layouts</li>
+                                </ul>
+                            </li>
+                            <li>Development
+                                <ul>
+                                    <li>Frontend development using HTML/CSS/JavaScript</li>
+                                    <li>Implemented menu system</li>
+                                    <li>Built member registration functionality</li>
+                                    <li>Created admin dashboard</li>
+                                </ul>
+                            </li>
+                            <li>Testing & Deployment
+                                <ul>
+                                    <li>Performed cross-browser testing</li>
+                                    <li>Mobile responsiveness validation</li>
+                                    <li>User acceptance testing</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="detail-section hidden">
+                        <h3><i class="fas fa-laptop-code"></i> Technical Stack</h3>
+                        <ul>
+                            <li>Development: HTML5, CSS3, JavaScript</li>
+                            <li>IDE: Visual Studio Code</li>
+                        </ul>
+                    </div>
+                    <div class="detail-section hidden">
+                        <h3><i class="fas fa-star"></i> Key Features</h3>
+                        <ul>
+                            <li>Dynamic menu display with categories</li>
+                            <li>Special offers section</li>
+                            <li>Member registration system</li>
+                            <li>Mobile-responsive design</li>
+                            <li>Restaurant information pages</li>
+                            <li>Order tracking system</li>
+                        </ul>
+                    </div>
+                    <div class="detail-section hidden">
+                        <h3><i class="fas fa-exclamation-triangle"></i> Challenges & Solutions</h3>
+                        <ul>
+                            <li>Challenge: Creating responsive design for various devices<br>
+                                Solution: Implemented mobile-first approach with flexible layouts</li>
+                            <li>Challenge: Menu management complexity<br>
+                                Solution: Developed structured category system with easy update capability</li>
+                        </ul>
+                    </div>
+                    <div class="detail-section hidden">
+                        <h3><i class="fas fa-check-circle"></i> Outcome</h3>
+                        <ul>
+                            <li>Successfully launched functional restaurant website</li>
+                            <li>Intuitive user interface with seamless navigation</li>
+                            <li>Secure and efficient ordering system</li>
+                            <li>Positive user feedback</li>
+                            <li>Increased online presence</li>
+                        </ul>
+                    </div>
+                    <div class="detail-section hidden">
+                        <h3><i class="fas fa-forward"></i> Future Improvements</h3>
+                        <ul>
+                            <li>Integration with payment gateway</li>
+                            <li>Real-time order status updates</li>
+                            <li>Customer review system</li>
+                            <li>Analytics dashboard</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Flexible Vegetable Monitor Modal -->
+    <div id="vegetable-monitor-modal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close"><i class="fas fa-times"></i></span>
+            <div class="modal-header">
+                <h2>Flexible Vegetable Monitor</h2>
+                <p class="subtitle">IoT Smart Agriculture Project</p>
+            </div>
+            <div class="modal-body">
+                <div class="project-gallery">
+                    <div class="gallery-item">
+                        <img src="images/vegetable-monitor-1.jpg" alt="M5Stack Device Setup">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/vegetable-monitor-2.jpg" alt="Monitoring Interface">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/vegetable-monitor-3.jpg" alt="Sensor Integration">
+                    </div>
+                    <div class="gallery-item vertical-image">
+                        <img src="images/vegetable-monitor-4.jpg" alt="Data Visualization">
+                    </div>
+                </div>
+                <div class="project-details">
+                    <div class="detail-section">
+                        <h3><i class="fas fa-info-circle"></i> Introduction</h3>
+                        <p>An IoT-based smart agriculture monitoring system that revolutionizes urban farming through real-time environmental tracking. Using dual M5Stack devices connected via MQTT protocol, this system enables remote monitoring of plant conditions, reducing the need for constant physical presence.</p>
+                    </div>
+                    <div class="detail-section">
+                        <h3><i class="fas fa-video"></i> Demo Video</h3>
+                        <div class="video-container">
+                            <iframe id="vegetable-video" width="100%" height="400" 
+                                src="https://www.youtube.com/embed/PZ09QQDx0No?enablejsapi=1" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="view-all-details-container">
+                        <button class="view-all-details-btn">
+                            View All Details
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                    <div class="detail-section hidden">
+                        <h3><i class="fas fa-user"></i> My Role</h3>
+                        <ul>
+                            <li>Full project implementation and system architecture</li>
+                            <li>Hardware configuration and programming</li>
+                            <li>MQTT server setup and management</li>
+                            <li>System testing and optimization</li>
+                            <li>Documentation and user guide creation</li>
+                        </ul>
+                    </div>
+                    <div class="detail-section hidden">
+                        <h3><i class="fas fa-tasks"></i> Work Process</h3>
+                        <ul>
+                            <li>System Architecture Design
+                                <ul>
+                                    <li>MQTT server planning</li>
+                                    <li>Hardware component selection</li>
+                                    <li>Communication protocol design</li>
+                                </ul>
+                            </li>
+                            <li>Server Setup
+                                <ul>
+                                    <li>CloudMQTT server configuration</li>
+                                    <li>Security implementation</li>
+                                    <li>Connection testing</li>
+                                </ul>
+                            </li>
+                            <li>Hardware Development
+                                <ul>
+                                    <li>M5Stack device programming</li>
+                                    <li>Sensor integration</li>
+                                    <li>RGB lighting system implementation</li>
+                                    <li>Alert system setup</li>
+                                </ul>
+                            </li>
+                            <li>Software Implementation
+                                <ul>
+                                    <li>Data transmission protocols</li>
+                                    <li>Real-time monitoring interface</li>
+                                    <li>Alert system programming</li>
+                                    <li>User control interface</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="detail-section hidden">
+                        <h3><i class="fas fa-laptop-code"></i> Technical Stack</h3>
+                        <ul>
+                            <li>Hardware: M5Stack, ENV II sensors</li>
+                            <li>Server: CloudMQTT</li>
+                            <li>Protocols: MQTT, WiFi</li>
+                            <li>Programming: UIFlow, C++</li>
+                        </ul>
+                    </div>
+                    <div class="detail-section hidden">
+                        <h3><i class="fas fa-star"></i> Key Features</h3>
+                        <ul>
+                            <li>Real-time monitoring of:
+                                <ul>
+                                    <li>Temperature</li>
+                                    <li>Humidity</li>
+                                    <li>Pressure</li>
+                                </ul>
+                            </li>
+                            <li>RGB lighting control</li>
+                            <li>Audio alert system</li>
+                            <li>Remote access capability</li>
+                            <li>Data synchronization</li>
+                            <li>User-friendly interface</li>
+                        </ul>
+                    </div>
+                    <div class="detail-section hidden">
+                        <h3><i class="fas fa-exclamation-triangle"></i> Challenges & Solutions</h3>
+                        <ul>
+                            <li>Challenge: Reliable data transmission<br>
+                                Solution: Implemented robust error handling and reconnection mechanisms</li>
+                            <li>Challenge: Power management<br>
+                                Solution: Optimized code for battery efficiency</li>
+                        </ul>
+                    </div>
+                    <div class="detail-section hidden">
+                        <h3><i class="fas fa-cogs"></i> Advanced Features</h3>
+                        <ul>
+                            <li>QR code integration for quick system access</li>
+                            <li>Customizable environmental thresholds</li>
+                            <li>Intelligent alert system with audio cues</li>
+                            <li>Dynamic RGB lighting control</li>
+                            <li>Data logging and analysis</li>
+                        </ul>
+                    </div>
+                    <div class="detail-section hidden">
+                        <h3><i class="fas fa-check-circle"></i> Outcome</h3>
+                        <ul>
+                            <li>Successful implementation of remote monitoring system</li>
+                            <li>Real-time environmental data tracking</li>
+                            <li>Efficient alert system for critical conditions</li>
+                            <li>User-friendly monitoring interface</li>
+                            <li>Reduced manual monitoring needs</li>
+                            <li>Cost-effective implementation</li>
+                        </ul>
+                    </div>
+                    <div class="detail-section hidden">
+                        <h3><i class="fas fa-forward"></i> Future Enhancements</h3>
+                        <ul>
+                            <li>Cloud data storage integration</li>
+                            <li>Mobile app development</li>
+                            <li>Advanced analytics features</li>
+                            <li>Additional sensor integration</li>
+                            <li>Automated response system</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Data Analysis Modal -->
+    <div id="data-analysis-modal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close"><i class="fas fa-times"></i></span>
+            <div class="modal-header">
+                <h2>Water Treatment Data Analysis</h2>
+                <p class="subtitle">Intelligent Chemical Dosing System</p>
+            </div>
+            <div class="modal-body">
+                <div class="project-details">
+                    <div class="detail-section">
+                        <h3><i class="fas fa-info-circle"></i> Introduction</h3>
+                        <p>Part of Suzhou Water Company's intelligent chemical dosing system project initiated in May 2019. The project transformed traditional manual dosing into an AI-driven approach, focusing on optimizing chemical usage while maintaining water quality standards. The system has been successfully operating for about five years since its deployment in August 2022.</p>
+                    </div>
+                    <div class="view-all-details-container">
+                        <button class="view-all-details-btn">
+                            View All Details
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                    <div class="detail-section hidden">
+                        <h3><i class="fas fa-user"></i> My Role</h3>
+                        <ul>
+                            <li>Data Analyst</li>
+                            <li>Machine learning model development</li>
+                            <li>Data collection and preprocessing</li>
+                            <li>Performance analysis and reporting</li>
+                            <li>System optimization recommendations</li>
+                        </ul>
+                    </div>
+                    <div class="detail-section hidden">
+                        <h3><i class="fas fa-tasks"></i> Work Process</h3>
+                        <ul>
+                            <li>Data Collection & Preprocessing
+                                <ul>
+                                    <li>Database management using MySQL and Navicat</li>
+                                    <li>Data cleaning and standardization</li>
+                                    <li>Time series data organization</li>
+                                    <li>Feature extraction</li>
+                                </ul>
+                            </li>
+                            <li>Model Development
+                                <ul>
+                                    <li>Random Forest algorithm implementation</li>
+                                    <li>Model training using historical data</li>
+                                    <li>Parameter optimization</li>
+                                    <li>Performance validation</li>
+                                </ul>
+                            </li>
+                            <li>Analysis & Optimization
+                                <ul>
+                                    <li>Comparative analysis of automated vs manual dosing</li>
+                                    <li>Cost-benefit analysis</li>
+                                    <li>System performance evaluation</li>
+                                    <li>Recommendation development</li>
+                                </ul>
+                            </li>
+                            <li>Implementation & Monitoring
+                                <ul>
+                                    <li>Model deployment</li>
+                                    <li>Performance tracking</li>
+                                    <li>System adjustments</li>
+                                    <li>Ongoing optimization</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="detail-section hidden">
+                        <h3><i class="fas fa-laptop-code"></i> Technical Stack</h3>
+                        <ul>
+                            <li>Database: MySQL, Navicat</li>
+                            <li>Analysis Tools: Excel, Kaggle Notebooks</li>
+                            <li>Machine Learning: Random Forest Algorithm</li>
+                            <li>Visualization: Data visualization libraries</li>
+                        </ul>
+                    </div>
+                    <div class="detail-section hidden">
+                        <h3><i class="fas fa-chart-line"></i> Advanced Analytics</h3>
+                        <ul>
+                            <li>Time series analysis</li>
+                            <li>Pattern recognition</li>
+                            <li>Anomaly detection</li>
+                            <li>Predictive modeling</li>
+                            <li>Cost optimization algorithms</li>
+                        </ul>
+                    </div>
+                    <div class="detail-section hidden">
+                        <h3><i class="fas fa-check-circle"></i> Outcome</h3>
+                        <ul>
+                            <li>20.21% reduction in chemical usage</li>
+                            <li>Cost savings of ¥1.04 million annually</li>
+                            <li>Improved water quality stability</li>
+                            <li>Reduced operational staff by 12 people</li>
+                            <li>Enhanced system efficiency</li>
+                            <li>Automated dosing control</li>
+                            <li>Consistent water quality maintenance (1.0-2.0 NTU)</li>
+                        </ul>
+                    </div>
+                    <div class="detail-section hidden">
+                        <h3><i class="fas fa-forward"></i> Future Development</h3>
+                        <ul>
+                            <li>Advanced AI model integration</li>
+                            <li>Real-time optimization algorithms</li>
+                            <li>Enhanced monitoring capabilities</li>
+                            <li>Integration with other plant systems</li>
+                            <li>Predictive maintenance features</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cloud Server Modal -->
+    <div id="cloud-server-modal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close"><i class="fas fa-times"></i></span>
+            <div class="modal-header">
+                <h2>AWS Cloud Server Building</h2>
+                <p class="subtitle">Cloud Infrastructure Project</p>
+            </div>
+            <div class="modal-body">
+                <div class="project-gallery">
+                    <div class="gallery-item">
+                        <img src="images/aws-1.jpg" alt="AWS Architecture Diagram">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/aws-2.jpg" alt="AWS Services Configuration">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/aws-3.jpg" alt="AWS Security Setup">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/aws-4.jpg" alt="AWS Monitoring Dashboard">
+                    </div>
+                </div>
+                <div class="project-details">
+                    <div class="detail-section">
+                        <h3><i class="fas fa-info-circle"></i> Introduction</h3>
+                        <p>Migration project for a Company's e-commerce platform to AWS cloud infrastructure. The project focused on creating a secure, scalable, and cost-efficient cloud environment for a web application that enables product purchases, following AWS Well-Architected framework principles.</p>
+                    </div>
+                    <div class="view-all-details-container">
+                        <button class="view-all-details-btn">
+                            View All Details
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                    <div class="detail-section hidden">
+                        <h3><i class="fas fa-user"></i> My Role</h3>
+                        <ul>
+                            <li>Cloud infrastructure architect</li>
+                            <li>AWS service configuration</li>
+                            <li>Security implementation</li>
+                            <li>Cost optimization</li>
+                            <li>Performance monitoring</li>
+                        </ul>
+                    </div>
+                    <div class="detail-section hidden">
+                        <h3><i class="fas fa-tasks"></i> Work Process</h3>
+                        <ul>
+                            <li>Infrastructure Planning
+                                <ul>
+                                    <li>VPC architecture design</li>
+                                    <li>Security planning</li>
+                                    <li>Resource capacity planning</li>
+                                    <li>Cost estimation</li>
+                                </ul>
+                            </li>
+                            <li>Core Service Setup
+                                <ul>
+                                    <li>VPC and subnet configuration</li>
+                                    <li>Security group implementation</li>
+                                    <li>EC2 instance deployment</li>
+                                    <li>RDS database setup</li>
+                                    <li>S3 bucket creation</li>
+                                </ul>
+                            </li>
+                            <li>Application Migration
+                                <ul>
+                                    <li>Web application deployment</li>
+                                    <li>Database migration</li>
+                                    <li>Static content transfer</li>
+                                    <li>DNS configuration</li>
+                                </ul>
+                            </li>
+                            <li>Optimization & Monitoring
+                                <ul>
+                                    <li>Load balancer configuration</li>
+                                    <li>Cost monitoring setup</li>
+                                    <li>Performance testing</li>
+                                    <li>Security validation</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="detail-section hidden">
+                        <h3><i class="fas fa-laptop-code"></i> Technical Stack</h3>
+                        <ul>
+                            <li>Cloud Platform: Amazon Web Services</li>
+                            <li>Core Services: EC2, RDS, S3, VPC</li>
+                            <li>Network: ELB, Security Groups</li>
+                            <li>Monitoring: CloudWatch, Cost Explorer</li>
+                        </ul>
+                    </div>
+                    <div class="detail-section hidden">
+                        <h3><i class="fas fa-shield-alt"></i> Security Implementation</h3>
+                        <ul>
+                            <li>Multi-layer security architecture</li>
+                            <li>Access control policies</li>
+                            <li>Network security groups</li>
+                            <li>Data encryption</li>
+                            <li>Regular security audits</li>
+                        </ul>
+                    </div>
+                    <div class="detail-section hidden">
+                        <h3><i class="fas fa-check-circle"></i> Outcome</h3>
+                        <ul>
+                            <li>Successful cloud migration</li>
+                            <li>Improved system reliability</li>
+                            <li>Enhanced security measures</li>
+                            <li>Cost-effective infrastructure</li>
+                            <li>Scalable architecture</li>
+                            <li>Efficient resource utilization</li>
+                            <li>Automated monitoring system</li>
+                        </ul>
+                    </div>
+                    <div class="detail-section hidden">
+                        <h3><i class="fas fa-forward"></i> Future Enhancements</h3>
+                        <ul>
+                            <li>Auto-scaling implementation</li>
+                            <li>Disaster recovery setup</li>
+                            <li>Multi-region deployment</li>
+                            <li>Enhanced monitoring</li>
+                            <li>Cost optimization automation</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PCB Design Modal -->
+    <div id="pcb-design-modal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close"><i class="fas fa-times"></i></span>
+            <div class="modal-header">
+                <h2>PCB Design</h2>
+                <p class="subtitle">Electronic Hardware Project</p>
+            </div>
+            <div class="modal-body">
+                <div class="project-details">
+                    <div class="detail-section">
+                        <h3><i class="fas fa-info-circle"></i> Introduction</h3>
+                        <p>A comprehensive PCB design project using Autodesk EAGLE, covering the complete design lifecycle from initial schematic creation to final board assembly. The project emphasized proper component placement, efficient routing, and manufacturing standards compliance.</p>
+                    </div>
+                    <div class="view-all-details-container">
+                        <button class="view-all-details-btn">
+                            View All Details
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                    <div class="detail-section hidden">
+                        <h3><i class="fas fa-user"></i> My Role</h3>
+                        <ul>
+                            <li>PCB designer</li>
+                            <li>Component selection</li>
+                            <li>Layout design</li>
+                            <li>Assembly supervision</li>
+                            <li>Testing and verification</li>
+                        </ul>
+                    </div>
+                    <div class="detail-section hidden">
+                        <h3><i class="fas fa-tasks"></i> Work Process</h3>
+                        <ul>
+                            <li>Schematic Design
+                                <ul>
+                                    <li>Circuit planning</li>
+                                    <li>Component selection</li>
+                                    <li>Schematic capture</li>
+                                    <li>Circuit verification</li>
+                                </ul>
+                            </li>
+                            <li>PCB Layout
+                                <ul>
+                                    <li>Component placement</li>
+                                    <li>Power distribution planning</li>
+                                    <li>Signal routing strategy</li>
+                                    <li>Design rule setup</li>
+                                </ul>
+                            </li>
+                            <li>Board Routing
+                                <ul>
+                                    <li>Layer stack-up definition</li>
+                                    <li>Power and ground planes</li>
+                                    <li>Signal trace routing</li>
+                                    <li>Design rule checking</li>
+                                </ul>
+                            </li>
+                            <li>Manufacturing & Assembly
+                                <ul>
+                                    <li>Gerber file generation</li>
+                                    <li>Component sourcing</li>
+                                    <li>Board soldering</li>
+                                    <li>Functionality testing</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="detail-section hidden">
+                        <h3><i class="fas fa-laptop-code"></i> Technical Stack</h3>
+                        <ul>
+                            <li>Design Software: Autodesk EAGLE</li>
+                            <li>Manufacturing: PCB fabrication tools</li>
+                            <li>Assembly: Soldering equipment</li>
+                            <li>Testing: Multimeter, basic testing tools</li>
+                        </ul>
+                    </div>
+                    <div class="detail-section hidden">
+                        <h3><i class="fas fa-cogs"></i> Technical Specifications</h3>
+                        <ul>
+                            <li>Layer configuration</li>
+                            <li>Trace-width standards</li>
+                            <li>Clearance requirements</li>
+                            <li>Thermal relief settings</li>
+                            <li>Manufacturing constraints</li>
+                        </ul>
+                    </div>
+                    <div class="detail-section hidden">
+                        <h3><i class="fas fa-check-circle"></i> Outcome</h3>
+                        <ul>
+                            <li>Completed PCB design</li>
+                            <li>Successful board fabrication</li>
+                            <li>Functional assembled board</li>
+                            <li>Passed electrical testing</li>
+                            <li>Met design specifications</li>
+                            <li>Documentation complete</li>
+                        </ul>
+                    </div>
+                    <div class="detail-section hidden">
+                        <h3><i class="fas fa-forward"></i> Future Improvements</h3>
+                        <ul>
+                            <li>Design automation</li>
+                            <li>Advanced routing techniques</li>
+                            <li>Component optimization</li>
+                            <li>Manufacturing process refinement</li>
+                            <li>Testing procedure enhancement</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/Monika-12138" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="#" onclick="alert('WeChat ID: wx2503230642')"><i class="fab fa-weixin"></i> WeChat</a>
+        </div>
+        <p>&copy; 2024 Liu Zi Cheng. All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 
