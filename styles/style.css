@@ -19,6 +19,7 @@
 }
 
 body {
+    padding-top: 60px; /* 为固定导航栏留出空间 */
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     color: var(--text-color);
@@ -32,15 +33,16 @@ body {
     width: 100%;
     background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(10px);
-    padding: 0.2rem 0;
+    padding: 0.5rem 0;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     z-index: 1000;
+    height: 60px; /* 固定导航栏高度 */
 }
 
 .nav-content {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0.2rem;
+    padding: 0.5rem;
     display: flex;
     justify-content: center;
     gap: 1.5rem;
@@ -52,13 +54,13 @@ body {
     font-weight: 500;
     transition: color 0.3s;
     position: relative;
-    padding: 0.2rem 0.5rem;
+    padding: 0.5rem 1rem;
 }
 
 .nav-content a::after {
     content: '';
     position: absolute;
-    bottom: 10px;
+    bottom: -2px;
     left: 50%;
     width: 0;
     height: 2px;
@@ -83,13 +85,13 @@ body {
 
 /* 英雄区域 */
 .hero {
-    min-height: 90vh;
+    min-height: calc(80vh - 60px); /* 减去导航栏高度 */
     background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
     position: relative;
     overflow: hidden;
     display: flex;
     align-items: center;
-    padding: 4rem 0 2rem;
+    padding: 2rem 0 1.5rem;
 }
 
 .hero::before {
@@ -112,7 +114,7 @@ body {
     animation: fadeInUp 1s ease-out forwards;
     display: flex;
     flex-direction: column;
-    gap: 0.8rem;
+    gap: 0.5rem;
 }
 
 .profile-img {
@@ -126,7 +128,7 @@ body {
 /* 内容容器 */
 .container {
     max-width: 1200px;
-    margin: 80px auto 0;
+    margin: 0 auto;
     padding: 2rem;
     height: 100%;
     overflow-y: auto;
@@ -525,8 +527,8 @@ footer {
 }
 
 .hero-content h2.name {
-    font-size: 2.8rem;
-    margin-bottom: 0.5rem;
+    font-size: 2.5rem;
+    margin-bottom: 0.3rem;
     animation: fadeInUp 1s ease-out 0.3s forwards;
     opacity: 0;
     line-height: 1.1;
@@ -551,22 +553,22 @@ footer {
 }
 
 .hero-content .education {
-    font-size: 1.2rem;
-    margin: 0.8rem 0;
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
     animation: fadeInUp 1s ease-out 0.4s forwards;
     opacity: 0;
-    line-height: 1.4;
+    line-height: 1.3;
     text-align: left;
     color: rgba(255, 255, 255, 0.95);
     font-weight: 400;
-    padding-left: 15px;
-    border-left: 3px solid rgba(255, 255, 255, 0.3);
+    padding-left: 12px;
+    border-left: 2px solid rgba(255, 255, 255, 0.3);
 }
 
 .hero-content .subtitle {
     text-align: left;
-    font-size: 1.1rem;
-    margin: 0.8rem 0;
+    font-size: 1rem;
+    margin: 0.5rem 0;
     opacity: 0;
     animation: fadeInUp 1s ease-out 0.5s forwards;
     letter-spacing: 2px;
@@ -607,17 +609,17 @@ footer {
     }
 
     .hero-content h2.name {
-        font-size: 2.5rem;
+        font-size: 2.3rem;
     }
 
     .hero-content .education {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 }
 
 @media (max-width: 992px) {
     .hero {
-        padding: 4rem 0 2rem;
+        padding: 3rem 0 1.5rem;
     }
 
     .hero-content {
@@ -625,43 +627,43 @@ footer {
     }
 
     .hero-content h2.name {
-        font-size: 2.2rem;
+        font-size: 2rem;
     }
 
     .hero-content .education {
-        font-size: 1.1rem;
-        margin: 0.6rem 0;
+        font-size: 1rem;
+        margin: 0.4rem 0;
     }
 
     .hero-content .subtitle {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 }
 
 @media (max-width: 768px) {
     .hero {
-        padding: 3.5rem 1rem 2rem;
+        padding: 3rem 1rem 1.5rem;
         min-height: auto;
     }
 
     .hero-content {
         width: 100%;
-        padding: 1.5rem;
+        padding: 1rem;
         text-align: center;
         align-items: center;
     }
 
     .hero-content h2.name {
-        font-size: 2rem;
+        font-size: 1.8rem;
         text-align: center;
     }
 
     .hero-content .education {
-        font-size: 1rem;
+        font-size: 0.9rem;
         text-align: center;
         border-left: none;
         padding: 0;
-        margin: 0.5rem 0;
+        margin: 0.3rem 0;
     }
 
     .hero-content .subtitle {
@@ -671,7 +673,7 @@ footer {
 
     .cta-buttons {
         justify-content: center;
-        margin-top: 1rem;
+        margin-top: 0.8rem;
     }
 
     .btn {
@@ -684,15 +686,15 @@ footer {
 
 @media (max-width: 480px) {
     .hero {
-        padding: 3rem 1rem 1.5rem;
+        padding: 2.5rem 1rem 1rem;
     }
 
     .hero-content {
-        padding: 1rem;
+        padding: 0.8rem;
     }
 
     .hero-content h2.name {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
 
     .hero-content .education {
@@ -719,7 +721,7 @@ footer {
 /* 确保内容容器在所有屏幕尺寸下都有合适的边距 */
 .container {
     max-width: 1200px;
-    margin: 80px auto 0;
+    margin: 0 auto;
     padding: 2rem;
     height: 100%;
     overflow-y: auto;
@@ -733,9 +735,9 @@ footer {
 }
 
 .cta-buttons {
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     display: flex;
-    gap: 0.8rem;
+    gap: 0.6rem;
     justify-content: flex-start;
     opacity: 0;
     animation: fadeInUp 1s ease-out 0.6s forwards;
@@ -969,7 +971,7 @@ footer {
 
 /* 添加项目页面的新样式 */
 .projects-section {
-    padding: 120px 0 60px;
+    padding: 60px 0;
 }
 
 .section-title {
@@ -1354,7 +1356,7 @@ footer {
 }
 
 .contact-info {
-    margin: 1rem 0;
+    margin: 0.8rem 0;
     opacity: 0;
     animation: fadeInUp 1s ease-out 0.6s forwards;
 }
@@ -1363,7 +1365,7 @@ footer {
     display: flex;
     align-items: center;
     gap: 1rem;
-    margin-bottom: 0.3rem;
+    margin-bottom: 0.2rem;
     color: rgba(255, 255, 255, 0.9);
     font-size: 1rem;
 }
@@ -1409,7 +1411,7 @@ footer {
 
 /* 联系页面样式 */
 .contact-section {
-    padding: 120px 0 60px;
+    padding: 60px 0;
 }
 
 .contact-info-grid {
@@ -2195,5 +2197,59 @@ footer {
     }
     to {
         opacity: 1;
+    }
+}
+
+/* 下载按钮样式 */
+.btn i {
+    margin-right: 8px;
+}
+
+.btn-secondary {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.2);
+}
+
+.cta-buttons {
+    margin-top: 1rem;
+    display: flex;
+    gap: 0.8rem;
+    justify-content: flex-start;
+    opacity: 0;
+    animation: fadeInUp 1s ease-out 0.6s forwards;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+    .cta-buttons {
+        justify-content: center;
+        gap: 0.6rem;
+    }
+    
+    .btn {
+        min-width: 160px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .cta-buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .btn {
+        width: 100%;
+        justify-content: center;
     }
 } 
